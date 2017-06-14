@@ -80,7 +80,7 @@ window.onload = function() {
         });
 
         // save caret position for button acctions
-        $(input).on("blur", function() {
+        input.addEventListener("blur", function() {
             lastCursorPosition = this.selectionEnd;
         });
 
