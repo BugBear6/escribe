@@ -1,0 +1,22 @@
+{
+  "name": "escribe",
+  "version": "1.0.0",
+  "description": "A Pen created at CodePen.io. You can find this one at http://codepen.io/BugBear6/pen/VWaNYe.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugBear6/escribe.git"
+  },
+  "author": "Coderror",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BugBear6/escribe/issues"
+  },
+  "homepage": "https://github.com/BugBear6/escribe#readme",
+  "devDependencies": {
+    "electron": "^1.6.11"
+  }
+}

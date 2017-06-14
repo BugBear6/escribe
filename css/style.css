@@ -1,2 +1,70 @@
-*{box-sizing:border-box;margin:0;outline:0;padding:0}body{width:600px;margin:0 auto}.input-group-lg>.form-control#input{width:600px;min-height:120px;border-radius:4px;line-height:20px;display:flex;padding:10px 20px 5px 20px;font-size:17px;background:transparent;border:0;background:none;overflow:auto;outline:none;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;resize:none;color:#fff}#control-buttons{width:100%;display:flex;flex-direction:row;margin:0;padding:0}#control-buttons li.control{cursor:pointer;display:block;border:0 !important;flex:1;transition:2s}#control-buttons li.control.copy{flex:2}#control-buttons li.control:hover .input-group-addon{background:#607385}#control-buttons li.control .input-group-addon,#control-buttons li.control .input-group-btn{width:100%;display:block;border-left:1px solid #2b3e50;border-right:1px solid #2b3e50;height:40px;display:flex;justify-content:center;align-items:center}#control-buttons .input-group-addon,#control-buttons li{font-size:15px}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0; }
+
+.input-holder {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+    /*
+	&:after{
+		position: absolute;
+		content: " ";
+		height: 120px;
+		width: 1px;
+		background: #fff;
+		top: 1px;
+		left: 1px;
+		z-index: 9999
+	} */ }
+
+.input-group-lg > .form-control#input {
+  width: 600px;
+  min-height: 120px;
+  border-radius: 4px;
+  line-height: 20px;
+  display: flex;
+  padding: 10px 20px 5px 20px;
+  font-size: 17px;
+  background: transparent;
+  border: 0;
+  background: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+  color: #fff; }
+
+#control-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0; }
+  #control-buttons li.control {
+    cursor: pointer;
+    display: block;
+    border: 0 !important;
+    flex: 1;
+    transition: 2s; }
+    #control-buttons li.control.copy {
+      flex: 2; }
+    #control-buttons li.control:hover .input-group-addon {
+      background: #607385; }
+    #control-buttons li.control .input-group-addon, #control-buttons li.control .input-group-btn {
+      width: 100%;
+      display: block;
+      border-left: 1px solid #2b3e50;
+      border-right: 1px solid #2b3e50;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  #control-buttons .input-group-addon, #control-buttons li {
+    font-size: 15px; }
+
 /*# sourceMappingURL=style.css.map */
