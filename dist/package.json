@@ -1,7 +1,7 @@
 {
   "name": "escribe",
   "version": "1.0.0",
-  "description": "A Pen created at CodePen.io. You can find this one at http://codepen.io/BugBear6/pen/VWaNYe.",
+  "description": "Type Spanish accent marks easily. Codepen: http://codepen.io/BugBear6/pen/VWaNYe.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/BugBear6/escribe#readme",
   "devDependencies": {
-    "electron": "^1.6.11"
+    "electron": "^1.6.11",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-image": "^2.9.0",
+    "gulp-minify": "^1.0.0",
+    "gulp-sass": "^3.1.0"
   }
 }
