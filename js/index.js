@@ -7,6 +7,7 @@ window.onload = function() {
 
         var lastCursorPosition = 0;
 
+        input.value = '';
         input.focus();
 
         input.addEventListener("keydown", function(e) {
@@ -94,6 +95,7 @@ window.onload = function() {
 
         var copyButton = document.getElementById("copyButton");
         copyButton.addEventListener("click", function() {
+        	input.value = input.value.trim()
             input.select();
             document.execCommand("copy");
             window.getSelection().removeAllRanges();
