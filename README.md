@@ -6,8 +6,9 @@ Just VanillaJS.
 
 Demo:
 
-[http://codepen.io/BugBear6/pen/VWaNYe]
+http://codepen.io/BugBear6/pen/VWaNYe
 
 Screen (as a Chrome App):
  
-[Print Screen]: https://raw.githubusercontent.com/BugBear6/escribe/master/print_screen.jpg "Print Screen"
+![alt text](https://raw.githubusercontent.com/BugBear6/escribe/master/print_screen.jpg "Logo Title Text 1")
+
